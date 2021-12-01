@@ -30,7 +30,7 @@ if plot_lr:
 
 '''
 Now, we need to run the model for a number of epochs ~200, so we can get a nice curve to make final model
-decision based on
+decision based on things
 '''
 run_200 = True
 if run_200:

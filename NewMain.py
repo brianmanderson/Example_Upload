@@ -12,7 +12,6 @@ os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 os.environ["CUDA_VISIBLE_DEVICES"] = str(gpu)
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', )))
 cube_size = (32, 64, 64)
-from Deep_Learning.Utils.Return_Paths import return_paths
 base_path, morfeus_drive, _ = return_paths()
 kernel = (3, 3)
 batch_size = 12
