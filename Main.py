@@ -26,9 +26,7 @@ if plot_lr:
     path = os.path.join(morfeus_drive,path_desc)
     make_plots(path)
 
-'''
-Now go to Evaluate_Model folder
-'''
+
 
 '''
 Now, we need to run the model for a number of epochs ~200, so we can get a nice curve to make final model
